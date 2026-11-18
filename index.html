@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Россия в эпоху мировых войн — виртуальный музей</title>
+<meta name="theme-color" content="#0d0d0d">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-in">
+    <p class="eyebrow">Виртуальный музей</p>
+    <h1>Россия в эпоху <span>мировых войн</span></h1>
+    <p class="sub">1914–1945. Две войны. Миллионы судеб. История, изменившая страну.</p>
+    <a class="btn" href="#eras">Войти в музей</a>
+  </div>
+</header>
+
+<section id="eras" class="sec">
+  <h2 class="reveal">Выберите эпоху</h2>
+  <div class="eras">
+    <a href="#ww1" class="era reveal"><span class="yrs">1914–1918</span><h3>Первая мировая война</h3><p>От вступления империи в войну до Брестского мира: фронты, революции и крах старого порядка.</p><i>Открыть зал →</i></a>
+    <a href="#ww2" class="era ww2 reveal"><span class="yrs">1941–1945</span><h3>Великая Отечественная война</h3><p>От 22 июня 1941 года до Дня Победы: подвиг фронта и тыла, цена выстоявшей страны.</p><i>Открыть зал →</i></a>
+  </div>
+</section>
+
+<section id="ww1" class="sec"><h2 class="reveal">Зал I. Первая мировая война <small>1914–1918</small></h2><div class="grid" id="g1"></div></section>
+<section id="ww2" class="sec"><h2 class="reveal">Зал II. Великая Отечественная война <small>1941–1945</small></h2><div class="grid" id="g2"></div></section>
+
+<section id="timeline" class="sec">
+  <h2 class="reveal">Хронология 1914–1945</h2>
+  <p class="hint reveal">Нажмите на дату, чтобы узнать о событии.</p>
+  <div class="tl-panel" id="panel" aria-live="polite"><time>Выберите дату</time><p>Здесь появится краткая информация о событии.</p></div>
+  <div id="tl"></div>
+</section>
+
+<section id="end" class="sec end">
+  <h2 class="reveal">Память — это долг</h2>
+  <p class="reveal">Две войны унесли миллионы жизней, разрушили империи и изменили судьбу России и всего мира. Историческая память помогает помнить цену победы и беречь мир. Мы знаем имена не всех героев, но обязаны помнить о подвиге каждого.</p>
+  <a class="btn reveal" href="#top">Вернуться на главную</a>
+  <footer>Школьный мини-проект по истории и обществознанию. Фотографии: Wikimedia Commons и открытые архивы (укажите источники в папке images).</footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
